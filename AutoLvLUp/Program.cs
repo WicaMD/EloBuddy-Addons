@@ -1,4 +1,4 @@
-﻿    using System.Linq;
+    using System.Linq;
 
 namespace AutoSpellUp
 {
@@ -457,8 +457,7 @@ namespace AutoSpellUp
                 else if (_Player.ChampionName == "Zyra") abilitySequence = new int[] { 3, 2, 1, 3, 1, 4, 3, 1, 3, 1, 4, 3, 1, 2, 2, 4, 2, 2 };
                
                 Game.OnUpdate += Game_OnUpdate;
-                Chat.Say("<font color='#C80046'>AutoLevelup Loaded(EB>L$)</font>");
-                Chat.Say(_Player.ChampionName + tipo + " Loaded(EB Ported by Dakota)");
+                
                
 
             }
