@@ -364,13 +364,19 @@ namespace AutoSpellUp
                 {
                 if (Smite != null && Smite.Slot != SpellSlot.Unknown)
                 {
-                    abilitySequence = new int[] { 2, 3, 3, 2, 3, 4, 3, 2, 3, 2, 4, 2, 4, 4, 4, 4, 4, 4 };
-                    tipo = " Jungler";
-                    }
-                    else
-                    {
                     abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
-                    tipo = " Lane";
+                    
+                    tipo = " AD";
+                    }
+                if (Heal != null && Heal.Slot != SpellSlot.Unknown)
+                {
+                    abilitySequence = new int[] { 1, 3, 1, 2, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
+                    tipo = " AD";
+                }
+                else
+                    {
+                    abilitySequence = new int[] { 2, 3, 3, 2, 3, 4, 3, 2, 3, 2, 4, 2, 4, 4, 4, 4, 4, 4 };
+                    tipo = " AP";
                     }
                 }
                 else if (_Player.ChampionName == "Twitch") abilitySequence = new int[] { 3, 2, 1, 3, 3, 4, 3, 1, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
