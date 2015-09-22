@@ -29,14 +29,10 @@ namespace AutoSpellUp
 
             static void Game_OnStart(EventArgs args)
             {
-                
-                
-        
-            
                 Menu = MainMenu.AddMenu("AutoLevelUp", "AutoLevelUp");
 
-                Menu.AddGroupLabel("DakotaBlack's AutoLevelUp");
-                Menu.AddLabel("Credits to AAc, plzfixrito, and ndd305(L$$$) and Miku for example script.");
+                Menu.AddGroupLabel("Dakota's AutoLevelUp");
+                Menu.AddLabel(_Player.ChampionName+" loaded. Credits to AAc(L$$$) and Miku for example script.");
 
                 var Heal = Player.Spells.FirstOrDefault(o => o.SData.Name == "summonerHeal");
                 var Smite = Player.Spells.FirstOrDefault(o => o.SData.Name == "summonerSmite");
@@ -461,11 +457,8 @@ namespace AutoSpellUp
                 else if (_Player.ChampionName == "Ziggs") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Zilean") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Zyra") abilitySequence = new int[] { 3, 2, 1, 3, 1, 4, 3, 1, 3, 1, 4, 3, 1, 2, 2, 4, 2, 2 };
-               
-                Game.OnUpdate += Game_OnUpdate;
-                
-               
 
+                Game.OnUpdate += Game_OnUpdate;
             }
 
             static void Game_OnUpdate(EventArgs args)
