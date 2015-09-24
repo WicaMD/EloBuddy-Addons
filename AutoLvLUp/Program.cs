@@ -32,7 +32,7 @@ namespace AutoSpellUp
                 Menu = MainMenu.AddMenu("AutoLevelUp", "AutoLevelUp");
 
                 Menu.AddGroupLabel("Dakota's AutoLevelUp");
-                Menu.AddLabel(_Player.ChampionName+" loaded. Credits to AAc(L$$$) and Miku for example script.");
+                Menu.AddLabel(_Player.ChampionName+" loaded. Credits to AAc(L$$) and Miku for example script.");
 
                 var Heal = Player.Spells.FirstOrDefault(o => o.SData.Name == "summonerHeal");
                 var Smite = Player.Spells.FirstOrDefault(o => o.SData.Name == "summonerSmite");
