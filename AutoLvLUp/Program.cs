@@ -32,7 +32,7 @@ namespace AutoSpellUp
                 Menu = MainMenu.AddMenu("AutoLevelUp", "AutoLevelUp");
 
                 Menu.AddGroupLabel("Dakota's AutoLevelUp");
-                Menu.AddLabel(_Player.ChampionName+" loaded. Credits to AAc(L$$) and Miku for example script.");
+                Menu.AddLabel(_Player.ChampionName+" loaded. Credits to AAC(L$) and Miku for example script.");
 
                 var Heal = Player.Spells.FirstOrDefault(o => o.SData.Name == "summonerHeal");
                 var Smite = Player.Spells.FirstOrDefault(o => o.SData.Name == "summonerSmite");
@@ -41,10 +41,10 @@ namespace AutoSpellUp
                 else if (_Player.ChampionName == "Ahri") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Akali") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Alistar") abilitySequence = new int[] { 3, 1, 2, 3, 3, 4, 3, 1, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
-                else if (_Player.ChampionName == "Amumu") abilitySequence = new int[] { 3, 2, 1, 3, 3, 4, 3, 2, 3, 2, 4, 2, 2, 1, 1, 4, 1, 1 };
+                else if (_Player.ChampionName == "Amumu") abilitySequence = new int[] { 3, 1, 2, 3, 2, 4, 3, 3, 3, 2, 4, 2, 2, 1, 1, 4, 1, 1 };
                 else if (_Player.ChampionName == "Anivia") abilitySequence = new int[] { 1, 3, 2, 3, 3, 4, 3, 1, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Annie") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
-                else if (_Player.ChampionName == "Ashe") abilitySequence = new int[] { 2, 1, 2, 3, 2, 4, 2, 1, 2, 1, 4, 1, 1, 3, 3, 4, 3, 3 };
+                else if (_Player.ChampionName == "Ashe") abilitySequence = new int[] { 2, 1, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Azir") abilitySequence = new int[] { 2, 1, 3, 2, 2, 4, 1, 2, 2, 1, 4, 1, 3, 1, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Blitzcrank") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Brand") abilitySequence = new int[] { 2, 1, 3, 2, 2, 4, 2, 3, 2, 3, 4, 3, 3, 1, 1, 4, 1, 1 };
@@ -65,7 +65,7 @@ namespace AutoSpellUp
                         tipo = " AD";
                     }
                 }
-                else if (_Player.ChampionName == "Darius") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
+                else if (_Player.ChampionName == "Darius") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Diana") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "DrMundo") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Draven") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
@@ -138,12 +138,12 @@ namespace AutoSpellUp
                 }
                 else if (_Player.ChampionName == "Jax") abilitySequence = new int[] { 3, 1, 2, 2, 2, 4, 2, 3, 2, 3, 4, 3, 3, 1, 1, 4, 1, 1 };
                 else if (_Player.ChampionName == "Jayce") { abilitySequence = new int[] { 1, 3, 2, 1, 1, 2, 1, 3, 1, 3, 1, 3, 3, 2, 2, 3, 2, 2 }; rOff = -1; }
-                else if (_Player.ChampionName == "Jinx") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
+                else if (_Player.ChampionName == "Jinx") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Karma") { abilitySequence = new int[] { 1, 3, 1, 2, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 }; rOff = -1; }
                 else if (_Player.ChampionName == "Karthus") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Kassadin") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Katarina") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
-                else if (_Player.ChampionName == "Kalista") abilitySequence = new int[] { 3, 1, 2, 3, 3, 4, 3, 1, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
+                else if (_Player.ChampionName == "Kalista") abilitySequence = new int[] { 3, 1, 3, 2, 3, 4, 1, 3, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Kayle")
                 {
                 if (Smite != null && Smite.Slot != SpellSlot.Unknown)
@@ -276,12 +276,12 @@ namespace AutoSpellUp
                 {
                 if (Smite != null && Smite.Slot != SpellSlot.Unknown)
                 {
-                    abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
+                    abilitySequence = new int[] { 1, 2, 1, 3, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                     tipo = " Jungler";
                     }
                     else
                     {
-                    abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
+                    abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                     tipo = " Lane";
                     }
                 }
@@ -299,7 +299,7 @@ namespace AutoSpellUp
                     tipo = " Lane";
                     }
                 }
-                else if (_Player.ChampionName == "Ryze") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
+                else if (_Player.ChampionName == "Ryze") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 3, 1, 2, 4, 2, 2, 2, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Sejuani") abilitySequence = new int[] { 2, 3, 1, 2, 2, 4, 2, 1, 2, 3, 4, 3, 3, 3, 1, 4, 1, 1 };
                 else if (_Player.ChampionName == "Shaco")
                 {
@@ -340,7 +340,7 @@ namespace AutoSpellUp
                 else if (_Player.ChampionName == "Taric") abilitySequence = new int[] { 3, 2, 1, 2, 2, 4, 2, 3, 2, 3, 4, 3, 3, 1, 1, 4, 1, 1 };
                 else if (_Player.ChampionName == "TahmKench") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "Teemo") abilitySequence = new int[] { 3, 1, 2, 3, 3, 4, 3, 1, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
-                else if (_Player.ChampionName == "Thresh") abilitySequence = new int[] { 3, 1, 2, 3, 3, 4, 3, 1, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
+                else if (_Player.ChampionName == "Thresh") abilitySequence = new int[] { 1, 3, 2, 2, 2, 4, 2, 3, 2, 3, 4, 3, 3, 1, 1, 4, 1, 1 };
                 else if (_Player.ChampionName == "Tristana") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Trundle")
                 {
@@ -422,7 +422,7 @@ namespace AutoSpellUp
                 else if (_Player.ChampionName == "Viktor") abilitySequence = new int[] { 3, 1, 2, 3, 3, 4, 3, 1, 3, 1, 4, 1, 1, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Vladimir") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Volibear") abilitySequence = new int[] { 2, 1, 3, 2, 2, 4, 2, 3, 2, 3, 4, 3, 3, 1, 1, 4, 1, 1 };
-                else if (_Player.ChampionName == "Warwick") abilitySequence = new int[] { 1, 2, 3, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
+                else if (_Player.ChampionName == "Warwick") abilitySequence = new int[] { 2, 1, 3, 2, 2, 4, 2, 1, 2, 1, 4, 1, 1, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "MonkeyKing") abilitySequence = new int[] { 3, 1, 2, 1, 1, 4, 3, 1, 3, 1, 4, 3, 3, 2, 2, 4, 2, 2 };
                 else if (_Player.ChampionName == "Xerath") abilitySequence = new int[] { 1, 3, 2, 1, 1, 4, 1, 2, 1, 2, 4, 2, 2, 3, 3, 4, 3, 3 };
                 else if (_Player.ChampionName == "XinZhao")
