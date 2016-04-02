@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WatermarkDisabler")]
-[assembly: AssemblyDescription("EloBuddy.Loader - WatermarkDisabler")]
-[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyDescription("EloBuddy.Loader - WatermarkDisabler.")]
+[assembly: AssemblyConfiguration("Release")]
 [assembly: AssemblyCompany("EloBuddy")]
 [assembly: AssemblyProduct("WatermarkDisabler")]
 [assembly: AssemblyCopyright("Copyright © Wica 2016")]
-[assembly: AssemblyTrademark("EloBuddy.Loader")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
