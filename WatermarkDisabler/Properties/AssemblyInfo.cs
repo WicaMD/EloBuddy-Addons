@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WatermarkDisabler")]
-[assembly: AssemblyDescription("EloBuddy.Loader - WatermarkDisabler.")]
+[assembly: AssemblyDescription("EloBuddy.Loader - Watermark Disabler.")]
 [assembly: AssemblyConfiguration("Release")]
 [assembly: AssemblyCompany("EloBuddy")]
 [assembly: AssemblyProduct("WatermarkDisabler")]
-[assembly: AssemblyCopyright("Copyright © Wica 2016")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Wica SaM™ 2016")]
+[assembly: AssemblyTrademark("SaM™")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("23.9.3.1")]
-[assembly: AssemblyFileVersion("23.9.3.1")]
+[assembly: AssemblyVersion("1.0.3.1")]
+[assembly: AssemblyFileVersion("1.0.3.1")]
