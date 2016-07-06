@@ -1,5 +1,3 @@
-#region
-
 using System;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -10,8 +8,6 @@ using EloBuddy.SDK.Menu;
 using EloBuddy.SDK.Menu.Values;
 using Color = System.Drawing.Color;
 using SharpDX;
-
-#endregion
 
 namespace WatermarkDisabler
 {
