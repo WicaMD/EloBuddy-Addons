@@ -1,10 +1,25 @@
-﻿namespace WatermarkDisabler
+#region
+
+using System;
+using System.Linq;
+using System.Runtime.InteropServices;
+using EloBuddy;
+using EloBuddy.SDK;
+using EloBuddy.SDK.Events;
+using EloBuddy.SDK.Menu;
+using EloBuddy.SDK.Menu.Values;
+using Color = System.Drawing.Color;
+using SharpDX;
+
+#endregion
+
+namespace WatermarkDisabler
 {
     class Program
     {
         static void Main(string[] args)
         {
-            EloBuddy.Hacks.RenderWatermark = false;
+            Hacks.RenderWatermark = false;
         }
     }
 }
