@@ -4,7 +4,7 @@ namespace WatermarkDisabler
     {
         static void Main(string[] args)
         {
-            Hacks.RenderWatermark = false;
+            EloBuddy.Hacks.RenderWatermark = false;
         }
     }
 }
